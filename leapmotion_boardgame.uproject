@@ -3,10 +3,14 @@
 	"EngineAssociation": "4.10",
 	"Category": "",
 	"Description": "",
-	"Plugins": [
+	"Modules": [
 		{
-			"Name": "LeapMotion",
-			"Enabled": false
+			"Name": "leapmotion_boardgame",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	]
 }
